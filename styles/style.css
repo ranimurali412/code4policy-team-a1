@@ -1,0 +1,39 @@
+/* Set background */
+html {
+  background-color: peachpuff;
+}
+
+/* styles for the body of the site */
+body {
+  width: 60%;
+  background-color: papayawhip;
+  border: 5px solid white;
+  padding: 0 20px 20px 20px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* styles for headline */
+h1 {
+  color: black;
+}
+
+/* styles for subheadline */
+h2 {
+  color: black;
+}
+
+/* styles for paragraph */
+p {
+    color: black;
+}
+
+/* styles for image */
+img {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+
+}
