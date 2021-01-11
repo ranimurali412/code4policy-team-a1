@@ -1,27 +1,47 @@
 /* Set background */
 html {
   background-color: peachpuff;
+  width: 100%;
 }
+
 
 /* styles for the body of the site */
 body {
-  width: 60%;
-  background-color: papayawhip;
-  border: 5px solid white;
-  padding: 0 20px 20px 20px;
-  margin-top: 25px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+
 }
 
-/* styles for headline */
-h1 {
-  color: black;
+img {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+  opacity: 0.75;
+
 }
+
+/* styles for banner */
+.bannertext {
+  background-color: rgba(70,139,204, 0.4);
+  color: white;
+  border: 10px solid #f1f1f1;
+  top: 50%;
+  left: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+
+
 
 /* styles for subheadline */
 h2 {
-  color: black;
+  color: white;
 }
 
 /* styles for paragraph */
@@ -29,25 +49,4 @@ p {
     color: black;
 }
 
-/* styles for image */
-img {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 100%;
-  height: auto;
 
-}
-
-/* styles for banner */
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
