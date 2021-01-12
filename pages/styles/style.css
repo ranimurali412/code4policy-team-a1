@@ -9,7 +9,6 @@ html {
 /* styles for the body of the site */
 body {
   width: 100%;
-
 }
 
 img {
@@ -17,31 +16,7 @@ img {
   margin-right: auto;
   max-width: 100%;
   height: auto;
-
 }
-
-/* styles for background image */
-.bg-image {
-  display: block;
-  opacity: 0.75;
-  position: fixed;
-
-}
-
-/* styles for banner */
-.bannertext {
-  background-color: rgba(70,139,204, 0.4);
-  color: white;
-  border: 10px solid #f1f1f1;
-  top: 50%;
-  left: 50%;
-  position: fixed;
-  transform: translate(-50%, -50%);
-  width: 600px;
-  padding: 20px;
-  text-align: center;
-}
-
 
 /* styles for subheadline */
 h1 {
@@ -58,14 +33,40 @@ p {
 }
 
 /* styles for paragraph */
-p {
-    color: black;
+h6 {
+    color: gray;
 }
 
+/* styles for background image */
+.bg-image {
+  display: block;
+  opacity: 0.75;
+  position: fixed;
+}
+
+/* styles for banner */
+.bannertext {
+  background-color: rgba(70,139,204, 0.4);
+  color: white;
+  border: 10px solid #f1f1f1;
+  top: 50%;
+  left: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  padding: 20px;
+  text-align: center;
+}
 
 /* paragraph content centered */
 .content {
   max-width: 500px;
+  margin: auto;
+}
+
+/* paragraph content centered */
+.content2 {
+  max-width: 800px;
   margin: auto;
 }
 
@@ -121,60 +122,46 @@ p {
   border-bottom: 3px solid gray;
 }
 
-
-/* Style the tab */
-.tab {
-  overflow: hidden;
-  font-family: Didot, serif;
-}
-
-/* Style the buttons that are used to open the tab content */
-.tab button {
-  background-color: inherit;
-  font-family: Didot, serif;
-  color: white;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-  position: relative;
-  text-align: center;
-}
-
-/* Change background color of buttons on hover */
-.tab button:hover {
-  background-color: #ddd;
-}
-
-/* Create an active/current tablink class */
-.tab button.active {
-  background-color: #ccc;
-}
-
-/* Style the tab content */
-.tabcontent {
-  display: none;
-  padding: 6px 12px;
-  border-top: none;
-  position: sticky;
-  text-align: center;
-}
-
 .iconDetails {
   float: left; 
   height:180px;
   width:180px;
-  margin-left: -50%;
+  margin-left: -230px;
   padding: 1%;
+  margin-top: -10px;
 } 
 
 .container2 {
-  height:auto;
   padding:1%;
-  margin-bottom: 100px;
   margin-top: 100px;
+  margin-bottom: 15px;
 }
 
+/* paragraph content centered */
+.footer {
+  width: 100% !important;  
+  max-width: 100% !important;
+  min-width: 100% !important;
+  text-align: center;
+  background-color: #ddd !important; 
+  opacity: .8;
+  position: absolute;
+  z-index:100;
+  left: 0;
+  height: 55px;
+}
 
+/* paragraph content centered */
+.footer2 {
+  width: 100% !important;  
+  max-width: 100% !important;
+  min-width: 100% !important;
+  text-align: center;
+  background-color: #ddd !important; 
+  opacity: .8;
+  position: fixed;
+  z-index:100;
+  left: 0;
+  bottom: 0;
+  height: 55px;
+}
