@@ -30,7 +30,7 @@ img {
 
 /* styles for banner */
 .bannertext {
-  background-color: rgba(70,139,204, 0.4);
+  background-color: rgba(70,139,204, 0.8);
   color: white;
   border: 10px solid #f1f1f1;
   top: 50%;
