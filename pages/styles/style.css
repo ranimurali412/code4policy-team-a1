@@ -46,7 +46,7 @@ h6 {
 
 /* styles for banner */
 .bannertext {
-  background-color: rgba(70,139,204, 0.4);
+  background-color: rgba(70,139,204, 0.8);
   color: white;
   border: 10px solid #f1f1f1;
   top: 50%;
@@ -60,7 +60,7 @@ h6 {
 
 /* paragraph content centered */
 .content {
-  max-width: 500px;
+  max-width: 50%;
   margin: auto;
 }
 
