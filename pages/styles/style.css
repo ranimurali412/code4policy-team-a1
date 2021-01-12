@@ -1,7 +1,8 @@
 /* Set background */
 html {
-  background-color: peachpuff;
+  background-color: white;
   width: 100%;
+  font-family: Didot, serif;
 }
 
 
@@ -35,18 +36,95 @@ img {
 }
 
 
-
-
-
-
 /* styles for subheadline */
 h2 {
   color: white;
+}
+
+/* styles for headline 3 */
+p {
+    color: black;
 }
 
 /* styles for paragraph */
 p {
     color: black;
 }
+
+/* paragraph content centered */
+.content {
+  max-width: 500px;
+  margin: auto;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: left;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+  position: relative;
+  width: auto;
+  z-index: 100;
+  top: 50px;
+  padding-left: 12px;
+  padding-bottom: 10px;
+  padding: 12px;
+  margin-top: -45px;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid gray;
+}
+
+.topnav a.active {
+  border-bottom: 3px solid gray;
+}
+
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  font-family: Didot, serif;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  font-family: Didot, serif;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  position: relative;
+  text-align: center;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+  position: relative;
+  text-align: center;
+}
+
+
+
 
 
