@@ -20,10 +20,11 @@ img {
 
 }
 
-/* styles for background scroll images */
+/* styles for background image */
 .bg-image {
   display: block;
   opacity: 0.75;
+  position: fixed;
 
 }
 
