@@ -67,12 +67,12 @@ a {
 .bg-image {
   display: block;
   opacity: 0.75;
-  position: fixed;
+  background-size: cover
 }
 
 /* styles for banner */
 .bannertext {
-  background-color: rgba(70,139,204, 0.8);
+  background-color: rgba(70,139,204, 0.88);
   color: white;
   border: 10px solid #f1f1f1;
   top: 50%;
@@ -80,8 +80,10 @@ a {
   position: fixed;
   transform: translate(-50%, -50%);
   width: 600px;
+  height: 200px;
   padding: 20px;
   text-align: center;
+  overflow: auto;
 }
 
 /* paragraph content centered */
