@@ -29,12 +29,38 @@ h2 {
 
 /* styles for headline 3 */
 p {
-    color: black;
+    color: white;
+}
+
+ul {
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+h4 {
+  color: white;
+}
+
+
+/* styles for headline 3 */
+li {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+li em {
+  color: #86CFB9;
 }
 
 /* styles for paragraph */
 h6 {
     color: gray;
+    font-family: Didot, serif;
+}
+
+a {
+  color: white;
 }
 
 /* styles for background image */
@@ -148,20 +174,5 @@ h6 {
   position: absolute;
   z-index:100;
   left: 0;
-  height: 55px;
-}
-
-/* paragraph content centered */
-.footer2 {
-  width: 100% !important;  
-  max-width: 100% !important;
-  min-width: 100% !important;
-  text-align: center;
-  background-color: #ddd !important; 
-  opacity: .8;
-  position: fixed;
-  z-index:100;
-  left: 0;
-  bottom: 0;
   height: 55px;
 }
