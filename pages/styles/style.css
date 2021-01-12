@@ -51,6 +51,7 @@ p {
     color: black;
 }
 
+/* paragraph content centered */
 .content {
   max-width: 500px;
   margin: auto;
