@@ -65,7 +65,7 @@ p {
 
 /* paragraph content centered */
 .content {
-  max-width: 500px;
+  max-width: 50%;
   margin: auto;
 }
 
