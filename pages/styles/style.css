@@ -17,6 +17,12 @@ img {
   margin-right: auto;
   max-width: 100%;
   height: auto;
+
+}
+
+/* styles for background scroll images */
+.bg-image {
+  display: block;
   opacity: 0.75;
 
 }
