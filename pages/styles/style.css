@@ -1,6 +1,6 @@
 /* Set background */
 html {
-  background-color: peachpuff;
+  background-color: white;
   width: 100%;
   font-family: Didot, serif;
 }
@@ -36,10 +36,14 @@ img {
 }
 
 
-
 /* styles for subheadline */
 h2 {
   color: white;
+}
+
+/* styles for headline 3 */
+p {
+    color: black;
 }
 
 /* styles for paragraph */
@@ -47,6 +51,10 @@ p {
     color: black;
 }
 
+.content {
+  max-width: 500px;
+  margin: auto;
+}
 
 /* Navbar links */
 .topnav a {
