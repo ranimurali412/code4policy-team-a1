@@ -37,14 +37,6 @@ ul {
   list-style-position: inside;
 }
 
-
-/* styles for headline 3 */
-li {
-    color: black;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
 /* styles for paragraph */
 h6 {
     color: gray;
