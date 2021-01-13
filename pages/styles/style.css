@@ -157,6 +157,7 @@ h6 {
   height: 55px;
 }
 
+
 .animated-wrapper {
   box-sizing: inherit;
 }
@@ -223,3 +224,32 @@ h6 {
 
 
 
+
+.column1 {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.column2 {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 12px;
+}
+
+.row {
+  max-width: 700px;
+  margin: auto;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
