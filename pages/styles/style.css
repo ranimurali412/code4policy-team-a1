@@ -160,7 +160,7 @@ h6 {
 
 .column1 {
   float: left;
-  width: 33.33%;
+  width: 25%;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 10px;
@@ -169,15 +169,25 @@ h6 {
 
 .column2 {
   float: left;
-  width: 33.33%;
+  width: 25%;
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 12px;
+  word-wrap: break-word;
+}
+
+.column3 {
+  float: left;
+  width: 10%;
   text-align: center;
   padding-bottom: 20px;
   font-size: 12px;
 }
 
 .row {
-  max-width: 700px;
   margin: auto;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 /* Clear floats after the columns */
