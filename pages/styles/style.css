@@ -43,10 +43,11 @@ h6 {
     font-family: Didot, serif;
 }
 
+
 /* styles for background image */
 .bg-image {
   display: block;
-  opacity: 0.75;
+  opacity: 0.84;
   background-size: cover
 }
 
