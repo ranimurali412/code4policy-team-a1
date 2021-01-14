@@ -138,12 +138,6 @@ h6 {
   margin-top: -10px;
 } 
 
-.container2 {
-  padding:1%;
-  margin-top: 100px;
-  margin-bottom: 15px;
-}
-
 /* paragraph content centered */
 .footer {
   width: 100% !important;  
@@ -252,6 +246,15 @@ h6 {
   font-size: 12px;
 }
 
+.column4 {
+  float: left;
+  width: 25%;
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
 .row {
   margin: auto;
   padding-left: 40px;
@@ -263,4 +266,13 @@ h6 {
   content: "";
   display: table;
   clear: both;
+}
+
+
+.container2 {
+  width: 100%;
+  max-width: 100%;
+  padding:1%;
+  margin-top: 100px;
+  margin-bottom: 15px;
 }
