@@ -1,3 +1,5 @@
+// NOTE: This file is no longer used because we opted for anoter method (creating a navigation bar at the top of the webpage using HTML and CSS)
+
 function openCity(evt, cityName) {
   // Declare all variables
   var i, tabcontent, tablinks;
