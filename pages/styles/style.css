@@ -1,16 +1,16 @@
-/* Set background */
+/* set background, width, and font for entire webpage */
 html {
   background-color: white;
   width: 100%;
   font-family: Didot, serif;
 }
 
-
 /* styles for the body of the site */
 body {
   width: 100%;
 }
 
+/* styles for images */
 img {
   margin-left: auto;
   margin-right: auto;
@@ -18,40 +18,35 @@ img {
   height: auto;
 }
 
-/* styles for subheadline */
+/* styles for headline */
 h1 {
   line-height:2;
 }
 
+/* styles for subheadline */
 h2 {
   color: white;
 }
 
-/* styles for headline 3 */
+/* styles for paragraph text */
 p {
     color: black;
 }
 
-ul {
-  list-style-type: square;
-  list-style-position: inside;
-}
-
-/* styles for paragraph */
+/* styles for footer text */
 h6 {
     color: gray;
     font-family: Didot, serif;
 }
 
-
-/* styles for background image */
+/* styles for background image on main page */
 .bg-image {
   display: block;
   opacity: 0.84;
   background-size: cover
 }
 
-/* styles for banner */
+/* styles for banner text on main page */
 .bannertext {
   background-color: rgba(70,139,204, 0.88);
   color: white;
@@ -71,13 +66,7 @@ h6 {
   margin: auto;
 }
 
-/* paragraph content centered */
-.content2 {
-  max-width: 800px;
-  margin: auto;
-}
-
-/* Navbar links */
+/* styles for main page navigation bar */
 .topnav a {
   float: left;
   color: #f2f2f2;
@@ -95,14 +84,17 @@ h6 {
   margin-top: -45px;
 }
 
+/* styles for main page navigation bar on hover */
 .topnav a:hover {
   border-bottom: 3px solid gray;
 }
 
+/* styles for main page navigation bar active tab */
 .topnav a.active {
   border-bottom: 3px solid gray;
 }
 
+/* styles for navigation bar */
 .topnavother a {
   float: left;
   color: #8797FF;
@@ -121,24 +113,17 @@ h6 {
   clear: none;
 }
 
+/* styles for navigation bar on hover */
 .topnavother a:hover {
   border-bottom: 3px solid gray;
 }
 
+/* styles for navigation bar active tab */
 .topnavother a.active {
   border-bottom: 3px solid gray;
 }
 
-.iconDetails {
-  float: left; 
-  height:180px;
-  width:180px;
-  margin-left: -230px;
-  padding: 1%;
-  margin-top: -10px;
-} 
-
-/* paragraph content centered */
+/* styles for footer */
 .footer {
   width: 100% !important;  
   max-width: 100% !important;
@@ -153,13 +138,12 @@ h6 {
 }
 
 
+
+/* styles for animated text on main page */
+
 .animated-wrapper {
   box-sizing: inherit;
 }
-
-/*.animated-sentence {
-  text-align: left;
-}*/
 
 .animated-words {
   display: inline;
@@ -167,8 +151,6 @@ h6 {
 
 .animated-words span{
   animation: rotateWord 16s linear infinite 0s;
-/*  -ms-animation: topToBottom 5s infinite 0s;
-  -webkit-animation: topToBottom 5s  infinite 0s;*/
   color: #86CFB9;
   max-width: 0;
   opacity: 0;
@@ -182,22 +164,16 @@ h6 {
 .animated-words span:nth-child(2){
   animation-delay: 4s;
   text-align: center;
-/*  -ms-animation-delay: 1s;
-  -webkit-animation-delay: 1s;*/
 }
 
 .animated-words span:nth-child(3){
   animation-delay: 8s;
   text-align: center;
-/*  -ms-animation-delay: 2s;
-  -webkit-animation-delay: 2s;*/
 }
 
 .animated-words span:nth-child(4){
   animation-delay: 12s;
   text-align: center;
-/*  -ms-animation-delay: 3s;
-  -webkit-animation-delay: 3s;*/
 }
 
 @keyframes rotateWord {
@@ -207,18 +183,11 @@ h6 {
     20% { opacity: 0; max-width: 0; }
     80% { opacity: 0; max-width: 0; }
 }
-/*@media screen and (max-width: 768px){
-    .animated-sentence { font-size: 18px; }
-}
-@media screen and (max-width: 320px){
-    .animated-sentence { font-size: 9px; }
-}*/
 
 
 
 
-
-
+/* styles for rows and columns of text on US Stimulus and About Us pages */
 
 .column1 {
   float: left;
@@ -246,15 +215,7 @@ h6 {
   font-size: 12px;
 }
 
-.column4 {
-  float: left;
-  width: 25%;
-  text-align: left;
-  padding-top: 20px;
-  padding-bottom: 10px;
-  font-size: 20px;
-}
-
+/* styles for rows*/
 .row {
   margin: auto;
   padding-left: 40px;
@@ -269,10 +230,3 @@ h6 {
 }
 
 
-.container2 {
-  width: 100%;
-  max-width: 100%;
-  padding:1%;
-  margin-top: 100px;
-  margin-bottom: 15px;
-}
