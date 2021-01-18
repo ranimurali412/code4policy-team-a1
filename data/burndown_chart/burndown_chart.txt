@@ -1,0 +1,15 @@
+
+Sprint 1				
+Date/Time	Type	Points	Remaining	Total
+2021-01-08	Oh Yay	34	89	123
+2021-01-10	Zoom	76	47	123
+2021-01-11	Oh Yay	102	21	123
+2021-01-12	Oh Yay	123	0	123
+				
+				
+Sprint 2				
+Date/Time	Type	Points	Remaining	Total
+2021-01-13	Oh Yay	21	78	99
+2021-01-14	Zoom	52	47	99
+2021-01-15	Oh Yay	65	34	99
+2021-01-18	Zoom	99	0	99

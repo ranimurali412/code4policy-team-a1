@@ -1,0 +1,64 @@
+Job type,Women,Men,Job Type,Women Jobs,Men Jobs,White,"Black or
+ African
+ American",Asian,"Hispanic
+ or Latino"
+,,,Infrastructure,,,,,,
+2268060,0.035,0.965,Surface transportation,79382.1,2188677.9,0.871,0.073,0.016,0.364
+154350,0.08,0.92,water/wastewater,12348,142002,0.846,0.084,0.035,0.097
+185850,0.016,0.984,electricity,2973.6,182876.4,0.898,0.03,0.006,0.154
+42840,0.035,0.965,airports,1499.4,41340.6,0.871,0.073,0.016,0.364
+19200,0.035,0.965,inland waterways / marine ports,672,18528,0.871,0.073,0.016,0.364
+72540,0.035,0.965,dams,2538.9,70001.1,0.871,0.073,0.016,0.364
+4590,0.035,0.965,hazardous and solid waste,160.65,4429.35,0.871,0.073,0.016,0.364
+131600,0.035,0.965,levees,4606,126994,0.871,0.073,0.016,0.364
+216240,0.035,0.965,public parks and recreation,7568.4,208671.6,0.871,0.073,0.016,0.364
+32480,0.035,0.965,rail,1136.8,31343.2,0.871,0.073,0.016,0.364
+790400,0.035,0.965,schools,27664,762736,0.871,0.073,0.016,0.364
+316590,0.035,0.965,gas pipelines leak repairs,11080.65,305509.35,0.871,0.073,0.016,0.364
+353500,0.076,0.924,broadband,26866,326634,0.731,0.158,0.049,0.15
+,,,Renewable Energy,,,,,,
+1350700,0.039,0.961,Wind,52677.3,1298022.7,0.84,0.091,0.033,0.203
+1545200,0.035,0.965,Solar,54082,1491118,0.871,0.073,0.016,0.364
+307350,0.035,0.965,Geothermal,10757.25,296592.75,0.871,0.073,0.016,0.364
+,,,Energy Efficiency,,,,,,
+573750,0.035,0.965,Building retrofits,20081.25,553668.75,0.871,0.073,0.016,0.364
+100625,0.035,0.965,Industrial efficiency,3521.875,97103.125,0.871,0.073,0.016,0.364
+53750,0.039,0.961,High efficiency autos,2096.25,51653.75,0.84,0.091,0.033,0.203
+,,,Land and agriculture,,,,,,
+162000,0.252,0.748,Land restoration,40824,121176,0.893,0.044,0.018,0.476
+380000,0.254,0.746,Agriculture,96520,283480,0.966,0.009,0.01,0.057
+,,,,,,,,,
+Chart 1,,,,,,,,,
+,Women,Men,,,,,,,
+Infrastructure,178496.5,4409743.5,,,,,,,
+Renewable Energy,117516.55,3085733.45,,,,,,,
+Energy Efficiency,25699.375,702425.625,,,,,,,
+Land and Agriculture,137344,404656,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Chart 2,,,,,,,,,
+Industry,Detailled Industry,White,"Black or
+ African
+ American",Asian,"Hispanic
+ or Latino",,,,
+Infrastructure,Surface transportation,87.10%,7.30%,1.60%,36.40%,,,,
+Infrastructure,Water & wastewater,84.60%,8.40%,3.50%,9.70%,,,,
+Infrastructure,Electricity,89.80%,3.00%,0.60%,15.40%,,,,
+Infrastructure,Airports,87.10%,7.30%,1.60%,36.40%,,,,
+Infrastructure,Inland waterways & marine ports,87.10%,7.30%,1.60%,36.40%,,,,
+Infrastructure,Dams & Levees,87.10%,7.30%,1.60%,36.40%,,,,
+Infrastructure,Hazardous and solid waste,87.10%,7.30%,1.60%,36.40%,,,,
+Infrastructure,Public parks & recreation,87.10%,7.30%,1.60%,36.40%,,,,
+Infrastructure,Rail,87.10%,7.30%,1.60%,36.40%,,,,
+Infrastructure,Schools,87.10%,7.30%,1.60%,36.40%,,,,
+Infrastructure,Gas pipeline repairs,87.10%,7.30%,1.60%,36.40%,,,,
+Infrastructure,Broadband,73.10%,15.80%,4.90%,15.00%,,,,
+Renewable Energy,Wind,84.00%,9.10%,3.30%,20.30%,,,,
+Renewable Energy,Solar,87.10%,7.30%,1.60%,36.40%,,,,
+Renewable Energy,Geothermal,87.10%,7.30%,1.60%,36.40%,,,,
+Energy Efficiency,Building retrofits,87.10%,7.30%,1.60%,36.40%,,,,
+Energy Efficiency,Industrial efficiency,87.10%,7.30%,1.60%,36.40%,,,,
+Energy Efficiency,High efficiency autos,84.00%,9.10%,3.30%,20.30%,,,,
+Agriculture & Conservation,Land restoration,89.30%,4.40%,1.80%,47.60%,,,,
+Agriculture & Conservation,Agriculture,96.60%,0.90%,1.00%,5.70%,,,,
